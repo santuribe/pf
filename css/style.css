@@ -34,3 +34,36 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
+
+/* -----------------------NAV BAR----------------------------- */
+
+
+header .div-nav {
+    border-radius: 20px;
+    font-family: 'Sono', sans-serif;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    background: #023859;
+    max-width: 1000px;
+    width: 95%;
+    margin: 20px auto;
+    
+}
+
+header nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+header nav ul li a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+}
+h2{background-color: yellowgreen;
+    border-radius: 20px;
+    padding: 10px;}
+
+/* -----------------------NAV BAR END----------------------------- */
