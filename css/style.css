@@ -67,3 +67,48 @@ h2{background-color: yellowgreen;
     padding: 10px;}
 
 /* -----------------------NAV BAR END----------------------------- */
+/* -----------------------articles----------------------------- */
+
+.sec {
+    padding: 50px;
+    background-color: #40424a;
+    margin: 20px auto;
+    border-radius: 20px;
+    font-family: 'Sono', sans-serif;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+}
+h3 {
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+article {
+    background-color: blue;
+    border-radius: 20px;
+    padding: 10px;
+
+
+}
+
+p {
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+
+.news-1 {
+    padding: 10px;
+    border-radius: 20px;
+    background: rgb(172, 172, 6);
+    max-width: 1000px;
+    width: 40%;
+    margin: auto;
+
+}
