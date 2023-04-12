@@ -13,7 +13,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-image: url(../img/circuit.png);
 
-    
+
 
 
 }
@@ -48,7 +48,7 @@ header .div-nav {
     max-width: 1000px;
     width: 95%;
     margin: 20px auto;
-    
+
 }
 
 header nav ul li {
@@ -62,9 +62,12 @@ header nav ul li a {
     text-decoration: none;
     padding: 20px;
 }
-h2{background-color: yellowgreen;
+
+h2 {
+    background-color: yellowgreen;
     border-radius: 20px;
-    padding: 10px;}
+    padding: 10px;
+}
 
 /* -----------------------NAV BAR END----------------------------- */
 /* -----------------------articles----------------------------- */
@@ -81,6 +84,7 @@ h2{background-color: yellowgreen;
     max-width: 1000px;
     margin: auto;
 }
+
 h3 {
     background-color: aliceblue;
     border-radius: 20px;
@@ -112,73 +116,78 @@ p {
     margin: auto;
 
 }
+
 /* -----------------------articles end----------------------------- */
 /* ----------------carrusel---------------------------------------- */
 .h2-c {
-	text-align: center;
-	background-color: yellow;
+    text-align: center;
+    background-color: yellow;
     font-family: Menlo, monospace;
     padding-top: 20px;
     padding-bottom: 10px;
-	max-width: 1100px;
+    max-width: 1100px;
     margin-right: auto;
     margin-left: auto;
-	color: black;
-  }
-  
-  .carrusel {
-	display: flex;
-	gap: 10px;
-	justify-content: center;
-  }
-  
-  .carrusel ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	max-width: 1030px;
-	/* max-width: 510px; */
-	scroll-behavior: smooth;
-  }
-  
-  .carrusel-fotos {
-	display: flex;
-	gap: 10px;
-	overflow: auto;
-  }
-  
-  .carrusel-fotos img {
-	background: black;
-	border: 4px solid black;
-	width: 300px;
-	height: 200px;
-	object-fit: contain;
-  }
-  
-  .carrusel-menu {
-	display: none;
-  }
-  
-  @media screen and (min-width: 800px) {
-	.carrusel-fotos {
-	  overflow: hidden;
-	}
-  
-	.carrusel-fotos img {
-	  width: 500px;
-	  height: 400px;
-	}
-	.carrusel-menu {
-	  display: block;
-	}
-	.carrusel-menu img {
-	  box-sizing: border-box;
-	  width: 70px;
-	  height: 60px;
-	  border: 5px solid black;
-	}
-	.carrusel-menu img:hover {
-	  border: none;
-	}
-  }
-  /* ----------------carrusel---------------------------------------- */
+    color: black;
+}
+
+.carrusel {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.carrusel ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: 1030px;
+    /* max-width: 510px; */
+    scroll-behavior: smooth;
+}
+
+.carrusel-fotos {
+    display: flex;
+    gap: 10px;
+    overflow: auto;
+}
+
+.carrusel-fotos img {
+    background: black;
+    border: 4px solid black;
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.carrusel-menu {
+    display: none;
+}
+
+@media screen and (min-width: 800px) {
+    .carrusel-fotos {
+        overflow: hidden;
+    }
+
+    .carrusel-fotos img {
+        width: 500px;
+        height: 400px;
+    }
+
+    .carrusel-menu {
+        display: block;
+    }
+
+    .carrusel-menu img {
+        box-sizing: border-box;
+        width: 70px;
+        height: 60px;
+        border: 5px solid black;
+    }
+
+    .carrusel-menu img:hover {
+        border: none;
+    }
+}
+
+/* ----------------carrusel---------------------------------------- */
