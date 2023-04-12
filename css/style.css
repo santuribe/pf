@@ -64,7 +64,7 @@ header nav ul li a {
 }
 
 h2 {
-    background-color: yellowgreen;
+    background-color: green;
     border-radius: 20px;
     padding: 10px;
 }
@@ -257,65 +257,28 @@ p {
     background: beige;
 }
 
-/* ------------------------ footer----------------------------------------- */
-
-.foot ul {
-    display: inline-grid;
-    grid-auto-flow: row;
-    grid-gap: 24px;
-    justify-items: center;
-    margin: auto;
-}
-
-@media (min-width: 800px) {
-    .foot ul {
-        grid-auto-flow: column;
-    }
-
-}
-
-.foot a {
-    color: white;
-    text-decoration: none;
-    box-shadow: inset 0 -1px 0 hsla(0, 0%, 100%, 0.4);
-}
-
-.foot a:hover {
-    box-shadow: inset 0 -1.2em 0 hsla(0, 0%, 100%, 0.4);
-}
-
-.foot li:last-child {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-}
-
-.foot li:hover~li p {
-    animation: wave-animation 0.3s infinite;
-}
-
-/* below is just for demo styling */
-
-.foot div {
+/* -----------------------footer----------------------------- */
+footer .foot {
     display: flex;
-    height: 40vh;
-    width: 100%;
-    background-color: #002a38;
-    line-height: 1.3;
-    font-family: Menlo, monospace;
+    font-family: 'Sono', sans-serif;
+    justify-content: space-around;
+    align-items: center;
+    background: #023859;
 }
 
-@keyframes wave-animation {
-
-    0%,
-    100% {
-        transform: rotate(0deg);
-    }
-
-    25% {
-        transform: rotate(20deg);
-    }
-
-    75% {
-        transform: rotate(-15deg);
-    }
+footer nav ul li {
+    display: inline-block;
+    position: relative;
 }
+
+footer nav ul li a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    
+}
+
+
+
+/* -----------------------footer end----------------------------- */
