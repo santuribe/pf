@@ -233,7 +233,7 @@ article {
 }
 
 .wrapper {
-    min-height: 100vh;
+    min-height: 50vh;
     padding: 2rem 0;
     background: #40424a;
     color: #e4e4e8;
