@@ -18,16 +18,50 @@ body {
 
 }
 
+.cabecera {
+    background-color: tomato;
+    display: flex;
+    /* justify-content: space-between; */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'Sono', sans-serif;
+    font-size: medium;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 /* -----------------------NAV BAR----------------------------- */
 
-.main-img img {
-    max-width: 100%;
-    height: auto;
+
+header .div-nav {
+    border-radius: 20px;
+    font-family: 'Sono', sans-serif;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    background: #023859;
+    max-width: 1000px;
+    width: 95%;
+    margin: 20px auto;
+
 }
 
+header nav ul li {
+    display: inline-block;
+    position: relative;
+}
 
+header nav ul li a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+}
 
 h2 {
     background-color: green;
@@ -37,8 +71,50 @@ h2 {
 
 /* -----------------------NAV BAR END----------------------------- */
 /* -----------------------articles----------------------------- */
-figcaption{
-    color: #002a38;
+
+.sec {
+    padding: 50px;
+    background-color: #40424a;
+    margin: 20px auto;
+    border-radius: 20px;
+    font-family: 'Sono', sans-serif;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h3 {
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+article {
+    background-color: blue;
+    border-radius: 20px;
+    padding: 10px;
+
+
+}
+
+/* p {
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding: 10px;
+} */
+
+
+
+.news-1 {
+    padding: 10px;
+    border-radius: 20px;
+    background: rgb(172, 172, 6);
+    max-width: 1000px;
+    width: 40%;
+    margin: auto;
+
 }
 
 /* -----------------------articles end----------------------------- */
@@ -172,8 +248,6 @@ figcaption{
 }
 
 .grid-item figure img {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
     display: block;
     max-width: 100%;
 }
@@ -183,7 +257,6 @@ figcaption{
     padding: .625rem .5rem;
     background: beige;
 }
-
 /* ----------------cajitas---------------------------------------- */
 /* -----------------------footer----------------------------- */
 footer .foot {
@@ -211,7 +284,7 @@ footer nav ul li a {
     animation: wave-animation 0.3s infinite;
 }
 
-
+/* below is just for demo styling */
 
 .foot div {
     display: flex;
@@ -239,4 +312,4 @@ footer nav ul li a {
 }
 
 
-/* -----------------------footer end----------------------------- */
+/* -----------------------footer end----------------------------- */ 
